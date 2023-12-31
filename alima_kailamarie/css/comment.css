@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.comment-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.button-container {
+    margin-top: 10px;
+    text-align: center;
+}
+.comment-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

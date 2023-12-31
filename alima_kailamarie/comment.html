@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/comment.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Works</title>
+    </head>
+    <body>
+        <div class="comment-section" id="comment_section">
+            <h2>Leave a Comment</h2>
+            <form id="comment_form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" required></textarea>
+
+                <button id="comment_button" type="submit" 
+                    disabled>Comment</button>
+            </form>
+
+            <button id="sort_asc" type="button">Sort Ascending</button>
+            <button id="sort_desc" type="button">Sort Descending</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Comments</h2>
+        <ul id="comment_list"></ul>
+    </div>
+
+    <script src="comment.js"></script>
+    </body>
+</html>
