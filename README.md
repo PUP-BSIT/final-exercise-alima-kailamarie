@@ -2,4 +2,4 @@
  
 # **Personal Website**
 
-### ***Netlify URL:*** https://personal-alima.netlify.app
+### ***Netlify URL:*** https://alima-website.netlify.app
